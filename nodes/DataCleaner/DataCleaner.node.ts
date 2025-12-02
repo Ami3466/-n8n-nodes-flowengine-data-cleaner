@@ -36,7 +36,7 @@ export class DataCleaner implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Data Cleaner',
 		name: 'dataCleaner',
-		icon: 'file:dataCleaner.svg',
+		icon: 'file:flowengine.svg',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
